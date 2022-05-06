@@ -1,3 +1,10 @@
+$Divisores: whitesmoke 3px double;
+$ColorLetra: #ffe597c7;
+
+
+nav{
+    border-bottom: $Divisores;
+}
 body{
     // background-color: blue;
 }
@@ -16,4 +23,16 @@ section{
 
 h3{
     text-align: center;
+}
+
+.pdp{
+    background-color: black;
+    border-top: $Divisores;
+    color: $ColorLetra;
+    text-align: center;
+    align-items: center;
+    .DerechosPie{
+        padding-top: 10
+        px;
+    }
 }

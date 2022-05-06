@@ -1,3 +1,7 @@
+nav {
+  border-bottom: whitesmoke 3px double;
+}
+
 .row {
   border: 5px black solid;
   margin-top: 5px;
@@ -14,5 +18,17 @@ section div {
 
 h3 {
   text-align: center;
+}
+
+.pdp {
+  background-color: black;
+  border-top: whitesmoke 3px double;
+  color: #ffe597c7;
+  text-align: center;
+  align-items: center;
+}
+
+.pdp .DerechosPie {
+  padding-top: 10 px;
 }
 /*# sourceMappingURL=style.css.map */
