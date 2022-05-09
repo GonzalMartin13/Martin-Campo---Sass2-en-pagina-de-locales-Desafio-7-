@@ -1,0 +1,8 @@
+@mixin Pie ($Fondo,$Bordes,$letras,$paddin,$Alto) {
+    background-color: $Fondo ;
+    border-top: $Bordes;
+    color: $letras;
+    padding-top: $paddin;
+    height: $Alto;
+
+}

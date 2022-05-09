@@ -10,7 +10,7 @@
 }
 
 h3 {
-  color: tomato;
+  color: Yellow;
 }
 
 body {
@@ -53,11 +53,11 @@ h3 {
 
 .pdp {
   background-color: black;
+  border-top: 5px Yellow solid;
+  color: Yellow;
+  padding-top: 1px;
+  height: 200px;
   text-align: center;
   align-items: center;
-}
-
-.pdp .DerechosPie {
-  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

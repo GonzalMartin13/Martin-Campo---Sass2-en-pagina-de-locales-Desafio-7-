@@ -1,4 +1,5 @@
 @import "_variables";
+@import "mix";
 
 .row{
     border: 5px black solid;
@@ -10,7 +11,7 @@
     padding-bottom: 25px;
     padding-left: 10px;
 }
-h3{
+h3{ 
     color: $titulo;
 
 }
@@ -53,11 +54,7 @@ body{
     }
 
     .pdp{
-    background-color: black;
-    text-align: center;
-    align-items: center;
-        .DerechosPie{
-        padding-top: map-get($Cajas, padin );
-        }
-
+        @include Pie(black, 5px Yellow solid, Yellow, 1px, 200px,);
+        text-align: center;
+        align-items: center;
 }
