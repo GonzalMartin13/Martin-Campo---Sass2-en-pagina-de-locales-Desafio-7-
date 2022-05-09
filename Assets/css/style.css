@@ -1,19 +1,50 @@
-nav {
-  border-bottom: whitesmoke 3px double;
-}
-
 .row {
   border: 5px black solid;
   margin-top: 5px;
+  background-color: #f0f0f0;
 }
 
-section {
-  margin: 5px;
+.img-fluid {
+  padding-bottom: 25px;
+  padding-left: 10px;
 }
 
-section div {
+h3 {
+  color: tomato;
+}
+
+body {
+  background-color: grey;
+}
+
+body div {
   margin: 10px,1px;
-  text-align: justify;
+  text-align: center;
+}
+
+body div a h4:hover {
+  color: #f0f0f0;
+  transition: 800ms;
+}
+
+body div a h4:active {
+  color: black;
+}
+
+body div a h4:visited {
+  color: black;
+}
+
+body div .img, body div .maps {
+  padding: 10px;
+  height: 300px;
+  width: 400px;
+  border-radius: 25px;
+}
+
+body div p {
+  padding-top: 100px;
+  padding-right: 10px;
 }
 
 h3 {
@@ -22,13 +53,11 @@ h3 {
 
 .pdp {
   background-color: black;
-  border-top: whitesmoke 3px double;
-  color: #ffe597c7;
   text-align: center;
   align-items: center;
 }
 
 .pdp .DerechosPie {
-  padding-top: 10 px;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

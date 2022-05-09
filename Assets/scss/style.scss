@@ -1,38 +1,63 @@
-$Divisores: whitesmoke 3px double;
-$ColorLetra: #ffe597c7;
+@import "_variables";
 
-
-nav{
-    border-bottom: $Divisores;
-}
-body{
-    // background-color: blue;
-}
 .row{
     border: 5px black solid;
     margin-top: 5px;
-
-}
-section{
-    margin: 5px;
-    div{
-        margin:10px,1px;
-        text-align:justify ;
-    }
+    background-color: rgb(240, 240, 240);
 }
 
+.img-fluid{
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
 h3{
-    text-align: center;
+    color: $titulo;
+
 }
 
-.pdp{
+body{
+        background-color: map-get($ColorHover, fondo );
+        div{
+            margin:10px,1px;
+            text-align:center ;
+            a{
+                h4:hover{
+                    color: map-get($ColorHover, base);
+                    transition: 800ms;
+                }
+                h4:active{
+                    color: map-get($ColorHover, despues);
+                }
+                h4:visited{
+                    color: map-get($ColorHover, despues);
+                }
+            }
+            .img{
+                padding: map-get($Cajas, padin);
+                height: 300px;
+                width: 400px;
+                border-radius: map-get($Cajas , radio );
+            }
+            p{ 
+                padding-top: 100px;
+                padding-right: 10px;
+            }
+            .maps{
+                @extend .img;
+            }
+        }
+    }
+
+    h3{
+    text-align: center;
+    }
+
+    .pdp{
     background-color: black;
-    border-top: $Divisores;
-    color: $ColorLetra;
     text-align: center;
     align-items: center;
-    .DerechosPie{
-        padding-top: 10
-        px;
-    }
+        .DerechosPie{
+        padding-top: map-get($Cajas, padin );
+        }
+
 }
